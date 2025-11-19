@@ -1,0 +1,15 @@
+
+================================================
+Entropy snapping and plot update for cars dataset
+Rule: n = round(2^H), H' = log2(n), with n >= 1
+Files updated:
+  - plots/25_cars_entropy_seeds.csv
+  - plots/25_cars_entropy_summary.csv and plots/25_cars_entropy_summary.json
+  - plots/25_cars_entropy_plot.png
+  - plots/make_plot.py
+
+Rows changed in seeds by model:
+  - Claude Haiku 4.5: 71
+  - GPT 4.1: 71
+  - Gemini 2.0 Flash: 70
+  - Oracle: 50
