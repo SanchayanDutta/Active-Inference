@@ -1,0 +1,16 @@
+Entropy rounding update for all models
+Rule: n = round(2^H), H' = log2(n), with n >= 1.
+Files updated:
+  - plots/25_animals_entropy_seeds.csv (all rows)
+  - plots/25_animals_entropy_summary.csv (recomputed from seeds; mean/lo/hi snapped; std recomputed)
+  - plots/25_animals_entropy_plot.png (rebuilt from updated summary)
+
+Rows changed in seeds by model:
+  - Claude Haiku 4.5: 70
+  - GPT 4.1: 70
+  - Gemini 2.0 Flash: 70
+  - Oracle: 70
+
+================================================
+Plot update: legend order and std error bars (no envelope)
+Legend order: GPT 4.1, Gemini 2.0 Flash, Claude Haiku 4.5, Oracle
