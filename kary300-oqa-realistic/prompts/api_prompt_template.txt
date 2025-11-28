@@ -1,0 +1,17 @@
+You are playing an Object-Question-Answering (OQA) game.
+There is a hidden target among 300 items. Each item has 8 attributes:
+{color, shape, material, size, pattern, origin, use_case, energy}.
+
+Rules:
+- On each step, ask a single k-ary question that partitions the remaining candidates into k groups.
+- You then receive the true group for the hidden target and must filter the candidate set accordingly.
+- Continue until only one candidate remains.
+- Prefer questions that minimize the expected logarithm of the remaining set size (information gain).
+
+Return for each step:
+- the question you would ask,
+- the observed answer (value),
+- the size of the remaining set,
+- log2(size).
+
+Stop when size == 1.
