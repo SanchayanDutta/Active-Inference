@@ -4,28 +4,27 @@ This package contains a 100-item PLACES attribute table and ready-to-use prompts
 
 ## Repository layout
 
-100-places-oqa-dataset/
-├─ data/
-│ ├─ 100_places.json
-│ ├─ 100_Places.json
-│ ├─ items.txt
-│ ├─ attributes.txt
-│ └─ equivalence_classes.json
-├─ plots/
-│ ├─ 100_places_entropy_summary.csv
-│ ├─ 100_places_entropy_summary.json
-│ ├─ 100_places_entropy_seeds.csv
-│ ├─ 100_places_entropy_plot.png
-│ ├─ reference_plot.png
-│ └─ make_plot.py
-├─ prompts/
-│ ├─ prompt_plain.txt
-│ ├─ prompt_strict_json.txt
-│ └─ prompt_system.txt
-├─ metadata.json
-├─ QA_REPORT.txt
-└─ README.md
-
+   100-places-oqa-dataset/
+   ├─ data/
+   │ ├─ 100_places.json
+   │ ├─ 100_Places.json
+   │ ├─ items.txt
+   │ ├─ attributes.txt
+   │ └─ equivalence_classes.json
+   ├─ plots/
+   │ ├─ 100_places_entropy_summary.csv
+   │ ├─ 100_places_entropy_summary.json
+   │ ├─ 100_places_entropy_seeds.csv
+   │ ├─ 100_places_entropy_plot.png
+   │ ├─ reference_plot.png
+   │ └─ make_plot.py
+   ├─ prompts/
+   │ ├─ prompt_plain.txt
+   │ ├─ prompt_strict_json.txt
+   │ └─ prompt_system.txt
+   ├─ metadata.json
+   ├─ QA_REPORT.txt
+   └─ README.md
 
 ## Contents
 - `data/100_places.json` - canonical boolean attribute table. The duplicate file `100_Places.json` is provided for naming convenience.
